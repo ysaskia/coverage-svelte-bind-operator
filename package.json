@@ -1,0 +1,31 @@
+{
+  "name": "coverage-svelte-bind-operator",
+  "version": "1.0.0",
+  "description": "\"Reproduce coverage issue with Svelte bind operator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysaskia/coverage-svelte-bind-operator.git"
+  },
+  "author": "sitbon.yoann@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysaskia/coverage-svelte-bind-operator/issues"
+  },
+  "homepage": "https://github.com/ysaskia/coverage-svelte-bind-operator#readme",
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.41",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/svelte": "^3.1.1",
+    "c8": "^7.11.2",
+    "jsdom": "^19.0.0",
+    "svelte": "^3.47.0",
+    "svelte-preprocess": "^4.10.6",
+    "vitest": "^0.9.4"
+  }
+}
